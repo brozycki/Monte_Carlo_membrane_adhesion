@@ -25,4 +25,22 @@ The input parameters needs to be given in the following order:
 
 1: area concentration of the protein particles (in units of 1/a^2)
 
-2: membrane area fraction of lipid rafts
+2: membrane area fraction occupied by lipid rafts
+
+3: membrane bending rigidity modulus (in kT units)
+
+4: energy of contact between rafts (in kT units)
+
+5: energy of association of a protein particle with a raft (in kT units)
+
+6: energy of receptor-ligand binding (in kT units)
+
+7: number of MC cycles for equilibration
+
+8: number of MC cycles used for data acquisition
+
+9: number of MC cycles between recording observables
+
+10: number of MC cycles between recording system configurations
+
+11: random number generator seed
