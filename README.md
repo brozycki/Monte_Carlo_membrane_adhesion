@@ -6,6 +6,8 @@ This C++ code can be used to perform Monte Carlo simulations of the lattice-base
 
 Authors: Lukasz Milewski & Bartosz Rozycki, Institute of Physics, Polish Academy of Sciences, October 2023
 
+This code supplements a book chapter titled "Lattice-based mesoscale simulations and mean-field theory of cell membrane adhesion" by Long Li, Lukasz Milewski, Jie Gao, Jinglei Hu and Bartosz Rozycki. Book title: "Biophysical approaches to lateral and transverse lipid membrane heterogeneity". Editors: Markus Deserno and Tobias Baumgart. 
+
 The development of this Monte Carlo simulation code was supported by the National Science Centre of Poland via grant number 2021/40/Q/NZ1/00017.
 
 # Start
