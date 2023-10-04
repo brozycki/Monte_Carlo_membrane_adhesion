@@ -6,7 +6,7 @@ This C++ code can be used to perform Monte Carlo simulations of the lattice-base
 
 Authors: Lukasz Milewski & Bartosz Rozycki, Institute of Physics, Polish Academy of Sciences, October 2023
 
-The development of this code was supported by the National Science Centre via grant number 2021/40/Q/NZ1/00017.
+The development of this Monte Carlo simulation code was supported by the National Science Centre of Poland via grant number 2021/40/Q/NZ1/00017.
 
 # Start
 
