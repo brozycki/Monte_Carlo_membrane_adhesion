@@ -4,10 +4,7 @@ This C++ code can be used to perform Monte Carlo simulations of the lattice-base
 - Long Li, Jinglei Hu, Bartosz Rozycki, Fan Song, Nano Letters 20(1):722-728 (2020)
 - Long Li, Jinglei Hu, Xinghua Shi, Bartosz Rozycki, Fan Song, Soft Matter 17(7):1912-1920 (2021)
 
-Authors: Lukasz Milewski & Bartosz Rozycki
-Institute of Physics
-Polish Academy of Sciences
-October 2023
+Authors: Lukasz Milewski & Bartosz Rozycki, Institute of Physics, Polish Academy of Sciences, October 2023
 
 The development of this code was supported by the National Science Centre via grant number 2021/40/Q/NZ1/00017.
 
