@@ -8,7 +8,7 @@ Authors: Lukasz Milewski & Bartosz Rozycki, Institute of Physics, Polish Academy
 
 The development of this code was supported by the National Science Centre via grant number 2021/40/Q/NZ1/00017.
 
-# Usage
+# Start
 
 Compile the C++ code 
 
@@ -16,13 +16,13 @@ c++ MC_membrane_adhesion.cpp -O -o sim.o
 
 and execute it with 11 parameters at input as in the following example:
 
-./sim.o 0.02 0.1 10.0 0.0 3.0 5.1 10000000 100000000 1000 20000000 1
+./sim.o 0.02 0.1 10.0 1.5 3.0 6.0 10000000 100000000 1000 20000000 1
 
 The input parameters needs to be given in the following order:
 
-1: area concentration of the protein particles (in units of 1/a^2)
+1: area concentration of protein particles (in units of 1/a^2)
 
-2: membrane area fraction occupied by lipid rafts
+2: fraction of membrane area occupied by lipid rafts
 
 3: membrane bending rigidity modulus (in kT units)
 
@@ -41,3 +41,47 @@ The input parameters needs to be given in the following order:
 10: number of MC cycles between recording system configurations
 
 11: random number generator seed
+
+# Output files
+
+Two files are generated the course of a simulation:
+
+1. An output file with simulation results arranged in 10 columns:
+
+- column 1: MC cycle number
+
+- column 2: average membrane separation
+
+- column 3: membrane roughness
+
+- column 4: number of receptor-ligand complexes
+
+- column 5: number of free protein particles
+
+- column 6: total energy of membrane bending
+
+- column 7: total energy of contacts between rafts
+
+- column 8: total energy of particle-raft association
+
+- column 9: total energy of receptor-ligand interactions
+
+- column 10: sum of total energies in columns 6, 7, 8 and 9
+
+2. A configuration file with data arranged in 8 columns:
+
+- column 1: x coordinate
+
+- column 2: y coordinate
+
+- column 3: local position of the upper membrane at this lattice site
+
+- column 4: local position of the lower membrane at this lattice site
+
+- column 5: receptor index (0 if none) at this lattice site
+
+- column 6: ligand index (0 if none) at this lattice site
+
+- column 7: raft index (0 if none) at this lattice site
+
+- column 8: raft index (0 if none) at this lattice site
